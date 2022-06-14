@@ -4,8 +4,21 @@
 @section('mainContent')
 
 
+    <div class="container">
+        <div class="row">
 
-<h1>home!</h1>
-<a href="">vai a details</a> 
+            <div class="col-12 text-center">
+                <h1>Benvenuto!</h1>
+                  <button class="btn btn-primary">
+            <a class="text-white text-decoration-none " href="/hotels"><strong>Tutti gli Hotels</strong></a>
+        </button>
+            </div>
+        </div>
+
+      
+
+    </div>
+
+
+
 @endsection
-
