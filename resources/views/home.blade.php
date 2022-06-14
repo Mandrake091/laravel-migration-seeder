@@ -1,5 +1,11 @@
-@extends('layout.layout')
+@extends('layouts.default')
+@section('pageTitle', 'Hotels - Home')
 
-<h1>ciao</h1>
+@section('mainContent')
 
-<a href="/detail">detail</a>
+
+
+<h1>home!</h1>
+<a href="">vai a details</a> 
+@endsection
+

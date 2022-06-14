@@ -1,3 +1,11 @@
-@extends('layout.layout')
+@extends('layouts.default')
+@section('pageTitle', 'Hotels - Home')
 
-<h1>sono detail</h1>
+@section('mainContent')
+
+<h1>details</h1>
+<div class="col">
+    {{$hotels->title}}
+</div>
+
+@endsection
